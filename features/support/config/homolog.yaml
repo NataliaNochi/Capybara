@@ -1,0 +1,12 @@
+---
+#exemplo
+url: "http://hmg.nflix.com:8080"
+database:
+  host: "10.20.10.5"
+  dbname: "nflix"
+  user: "postgres"
+  password: "qaninja-hmg"
+users:
+  manager:
+    email: "viuva@negra.com"
+    pass: "123456"
