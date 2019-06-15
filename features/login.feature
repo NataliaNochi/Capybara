@@ -21,6 +21,6 @@ Funcionalidade: Login
         Exemplos:
             | email             | senha     | texto                          |
             | "tony@stark.com"  | "abc123"  | "Usuário e/ou senha inválidos" |
-            | "404@yahoo.com"   | "abc123"  | "Usuário e/ou senha inválidos" |
+            | "404@yahoo.com"   | "pwd123"  | "Usuário e/ou senha inválidos" |
             | ""                | "abcxpto" | "Opps. Cadê o email?"          |
             | "teste@gmail.com" | ""        | "Opps. Cadê a senha?"          |
