@@ -1,6 +1,6 @@
 #language: pt
 
-@func_login
+@logar
 Funcionalidade: Login
     Para que eu possa gerenciar os filmes do catálogo Ninjaflix
     Sendo um usuário previamente cadastrado

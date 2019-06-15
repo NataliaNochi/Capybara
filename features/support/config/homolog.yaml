@@ -1,6 +1,6 @@
 ---
 #exemplo
-url: "http://hmg.nflix.com:8080"
+url: "http://hmg.nflix.com:8000"
 database:
   host: "10.20.10.5"
   dbname: "nflix"
