@@ -9,7 +9,7 @@ pipeline{
             steps{
                 sh "chmod +x build/alpine.sh"
                 sh "./build/alpine.sh"
-                sh "bundle install"
+                sh "sudo apt-get bundle install"
             }
         }
         stage("Tests"){
