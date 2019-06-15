@@ -18,7 +18,7 @@ class MovieAdd
     end
     
     def upload(file)
-        cover_file = File.join(Dir.pwd, "features/support/fixtures/cover/" + file)
+        cover_file = File.join(Dir.pwd, "./features/support/fixtures/cover/" + file)
         cover_file = cover_file.tr("/", "\\") if OS.windows?
 
         Capybara.ignore_hidden_elements = false

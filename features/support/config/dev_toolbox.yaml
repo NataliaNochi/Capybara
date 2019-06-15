@@ -8,4 +8,4 @@ database:
 users:
   manager:
     email: "tony@stark.com"
-    pass: "123456"
+    pass: "pwd123"
