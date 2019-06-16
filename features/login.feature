@@ -6,11 +6,11 @@ Funcionalidade: Login
     Sendo um usuário previamente cadastrado
     Posso acessar o sistema com o meu email e senha
 
-    @login_happy
-    Cenario: Acesso
-        Quando eu faço login com "tony@stark.com" e "pwd123"
-        Então devo ser autenticado
-        E devo ver "Tony Stark" na área logada
+    # @login_happy
+    # Cenario: Acesso
+    #     Quando eu faço login com "tony@stark.com" e "pwd123"
+    #     Então devo ser autenticado
+    #     E devo ver "Tony Stark" na área logada
 
     @login_hapless
     Esquema do Cenario: Login sem sucesso
